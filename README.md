@@ -1,4 +1,7 @@
 # videoCreator
+videos:
+1. https://youtu.be/1rHd5U9Xgv8
+2. https://youtu.be/-BPH9h7kCE8
 
 .env file
 ALBUM_NAME = "add your album name"
