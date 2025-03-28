@@ -1,18 +1,10 @@
 # videoCreator
 
-
+.env file
 ALBUM_NAME = "add your album name"
 baseResourceDirectory = "Downloaded_Albums"
 albumPath = ${baseResourceDirectory}/${ALBUM_NAME}/
 metadataFilePath = ${baseResourceDirectory}/${ALBUM_NAME}/metadata.json
-
-#create service account 
-# create key for service account
-# and you will get this json. Export it to your environment
-#need to  export GOOGLE_APPLICATION_CREDENTIALS="serviceAccountGoogle.json"
-
-# Google Auth Platform add test users or publish the app
-
 
 elevenLabsApi="add you own api key"
 
@@ -24,3 +16,17 @@ TOKEN_FILE = "token.json"
 
 #apis and services, credentials oauth 2.0 client ids
 googlePhotosKey = "googlePhotosKey.json"
+
+
+
+
+1. create service account  
+2. create key for service account and get key in json
+3. export GOOGLE_APPLICATION_CREDENTIALS="serviceAccountGoogle.json"
+4. set up your app or Google Auth Platform add test users or publish the app
+5. get credentials in apis and services
+6. get the name of your album and add it in ALBUM_NAME
+7. run "python3.10 -m venv venv"
+8. run "source venv/bin/activate"
+9. run "pip install -r requirements.txt"
+10. run the python scripts in order
